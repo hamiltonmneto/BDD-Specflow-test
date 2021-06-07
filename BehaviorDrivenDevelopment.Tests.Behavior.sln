@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BehaviorDrivenDevelopment.Tests.Behavior", "BehaviorDrivenDevelopment.Tests.Behavior\BehaviorDrivenDevelopment.Tests.Behavior.csproj", "{586D2B5C-AD0E-4EEE-A507-1BF7F19C7C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorDrivenDevelopment.Service", "BehaviorDrivenDevelopment.Service\BehaviorDrivenDevelopment.Service.csproj", "{AE5D262E-82B4-436C-AB41-9BF85E177E66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586D2B5C-AD0E-4EEE-A507-1BF7F19C7C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586D2B5C-AD0E-4EEE-A507-1BF7F19C7C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586D2B5C-AD0E-4EEE-A507-1BF7F19C7C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586D2B5C-AD0E-4EEE-A507-1BF7F19C7C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5D262E-82B4-436C-AB41-9BF85E177E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5D262E-82B4-436C-AB41-9BF85E177E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5D262E-82B4-436C-AB41-9BF85E177E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5D262E-82B4-436C-AB41-9BF85E177E66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1192356-DCD0-4571-8264-4656ED9A2ED6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\BehaviorDrivenDevelopment.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\BehaviorDrivenDevelopment.Service.csproj",
+        "projectName": "BehaviorDrivenDevelopment.Service",
+        "projectPath": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\BehaviorDrivenDevelopment.Service.csproj",
+        "packagesPath": "C:\\Users\\Hamilton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hamilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.8.35, )"
+            },
+            "SpecRun.SpecFlow": {
+              "target": "Package",
+              "version": "[3.8.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior.csproj",
+        "projectName": "BehaviorDrivenDevelopment.Tests.Behavior",
+        "projectPath": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior.csproj",
+        "packagesPath": "C:\\Users\\Hamilton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Tests.Behavior\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hamilton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\BehaviorDrivenDevelopment.Service.csproj": {
+                "projectPath": "C:\\Users\\Hamilton\\source\\repos\\BehaviorDrivenDevelopment.Tests.Behavior\\BehaviorDrivenDevelopment.Service\\BehaviorDrivenDevelopment.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "SpecFlow.xUnit": {
+              "target": "Package",
+              "version": "[3.8.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
